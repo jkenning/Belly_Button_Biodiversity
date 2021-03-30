@@ -73,7 +73,7 @@ function buildCharts(sample) {
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
     
-    var yticks = otu_ids.slice(0,10).map(otuID => "OTU ${otuID").reverse();
+    var yticks = otu_ids.slice(0,10).map(otuID => "OTU ${otuID}").reverse();
 
     // 8. Create the trace for the bar chart. 
     var barData = [
@@ -93,6 +93,6 @@ function buildCharts(sample) {
      margin: {t: 100, b: 100, l: 100, r: 100}
     };
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("plotArea", [barData], barLayout);
+    Plotly.newPlot("plotArea", barData, barLayout);
   });
 }
