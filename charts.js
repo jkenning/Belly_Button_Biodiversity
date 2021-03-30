@@ -88,7 +88,6 @@ function buildCharts(sample) {
     var barLayout = {
       title: "Top 10 Bacterial Species (OTUs)",
       xaxis: { title: "Sample Values"},
-      yaxis: { title: "OTU id"},
       margin: {
         l: 100, 
         r: 100, 
