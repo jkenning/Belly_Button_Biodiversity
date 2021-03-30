@@ -77,14 +77,13 @@ function buildCharts(sample) {
     // var yticks = otu_ids.map(sampleObj => "OTU " + sampleObj).slice(0,10).reverse();
 
     // 8. Create the trace for the bar chart. 
-    var trace1 = {
+    var barData = [{
       x: sample_values.slice(0,10).reverse(),
       y: yticks,
       text: otu_labels.slice(0,10).reverse(),
       type: "bar",
       orientation: "h"
-    };
-    var barData = [trace1];
+    }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacterial Species (OTUs)",
