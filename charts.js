@@ -127,7 +127,7 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       yaxis: {title: "Sample Values"},
       hovermode: "closest",
-      paper_bgcolor: "grey",
+      paper_bgcolor: "lightgrey",
       font: {color: "darkblue", family: "Arial"},
       margin: {
         l: 100,
