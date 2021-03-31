@@ -12,21 +12,21 @@ Many bacterial species are not well studied and many more remain unknown to scie
 
 ## Resources
 
-Data source: ![samples.json]()
+Data source: ![samples.json](https://github.com/jkenning/Belly_Button_Biodiversity/blob/main/samples.json)
 
 Tools and Software: Visual Studio Code 1.54.3, Git Bash, GitHub Pages, JavaScript, Plotly, HTML, Bootstrap.
 
 ## Results
 
-![]()
+![](https://github.com/jkenning/Belly_Button_Biodiversity/blob/main/Images/bar_chart.png)
 
 Figure. 1 - A bar chart was added to the dashboard for the top 10 bacterial cultures found in a sample, which is updated by a dropdown menu when a new individual sample is selected.
 
-![]()
+![](https://github.com/jkenning/Belly_Button_Biodiversity/blob/main/Images/bubble_chart.png)
 
-Figure. 2 - A bubble plot was included in the dashboard with bubble sized defined by sample numbers and color by participant ID (OTU).
+Figure. 2 - A bubble chart was included in the dashboard with bubble sized defined by sample numbers and color by participant ID (OTU).
 
-![]()
+![](https://github.com/jkenning/Belly_Button_Biodiversity/blob/main/Images/gauge_chart.png)
 
 Figure. 3 - Lastly, a gauge chart was add to the dashboard to display the frequency with which participants wash their belly button per week. 
 
@@ -40,6 +40,6 @@ Several customizations were made to the dashboard:
 
 * The layout of the page was changed to place the bubble chart at the top
 
-![]()
+![](https://github.com/jkenning/Belly_Button_Biodiversity/blob/main/Images/dashboard.png)
 
 Figure. 4 - Final dashboard with .json data vizualized via GitHub Pages.
