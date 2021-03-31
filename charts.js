@@ -100,8 +100,8 @@ function buildCharts(sample) {
       margin: {
         l: 100, 
         r: 100, 
-        t: 100, 
-        b: 100
+        t: 50, 
+        b: 50
       }
     };
     // 10. Use Plotly to plot the data with the layout. 
@@ -130,10 +130,10 @@ function buildCharts(sample) {
       paper_bgcolor: "grey",
       font: {color: "darkblue", family: "Arial"},
       margin: {
-        l: 25,
-        r: 25,
-        t: 25,
-        b: 25
+        l: 100,
+        r: 100,
+        t: 50,
+        b: 50
       }
     };
 
@@ -146,7 +146,8 @@ function buildCharts(sample) {
       value: wfreqs,
       type: "indicator",
       mode: "gauge+number",
-      title: {text: "Belly Button Washing Frequency" + "Scrubs Per Week", font: {size: 24}},
+      title: {text: "Belly Button Washing Frequency " 
+      + "Scrubs Per Week", font: {size: 12}},
       gauge: {
         axis: {range: [null,10], tickwidth: 1, tickcolor: "darkblue", dtick: "2"},
         bar: {color: "black"},
@@ -169,10 +170,10 @@ function buildCharts(sample) {
       paper_bgcolor: "lightgrey",
       font: {color: "darkblue", family: "Arial"},
       margin: {
-        l: 25,
-        r: 25,
-        t: 25,
-        b: 25
+        l: 100,
+        r: 100,
+        t: 50,
+        b: 50
       }
     };
 
