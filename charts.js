@@ -74,7 +74,7 @@ function buildCharts(sample) {
     var otu_labels = result.otu_labels;
     var sample_values = result.sample_values;
     // D3: 3. Create a variable that holds the washing frequency.
-    var wfreq = meta.wfreq;
+    var wfreqs = meta.wfreq;
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
@@ -138,12 +138,12 @@ function buildCharts(sample) {
     };
 
     // 3. Use Plotly to plot the data with the layout.
-    Plotly.newplot("bubble", bubbleData, bubbleLayout);
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout);
     
     //// Deliverable 3 ////
     // 4. Create the trace for the gauge chart.
     var gaugeData = [{
-      value: wfreq,
+      value: wfreqs,
       type: "indicator",
       mode: "gauge+number",
       title: {text: "Belly Button Washing Frequency" + "Scrubs Per Week", font: {size: 24}},
