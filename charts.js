@@ -130,10 +130,10 @@ function buildCharts(sample) {
       paper_bgcolor: "grey",
       font: {color: "darkblue", family: "Arial"},
       margin: {
-        l: 100,
-        r: 100,
-        t: 100,
-        b: 100
+        l: 25,
+        r: 25,
+        t: 25,
+        b: 25
       }
     };
 
