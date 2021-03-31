@@ -117,7 +117,7 @@ function buildCharts(sample) {
         marker: {
           size: sample_values,
           color: otu_ids,
-          colorscale: "BrBg",
+          colorscale: "earth",
         }
     }];
 
@@ -127,7 +127,7 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       yaxis: {title: "Sample Values"},
       hovermode: "closest",
-      paper_bgcolor: "lightgrey",
+      paper_bgcolor: "grey",
       font: {color: "darkblue", family: "Arial"},
       margin: {
         l: 100,
@@ -151,7 +151,7 @@ function buildCharts(sample) {
         axis: {range: [null,10], tickwidth: 1, tickcolor: "darkblue", dtick: "2"},
         bar: {color: "black"},
         borderwidth: 2,
-        bordercolor: "darkgrey",
+        bordercolor: "grey",
         steps: [
           {range: [0,2], color: "red"},
           {range: [2,4], color: "orange"},
