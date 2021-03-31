@@ -109,7 +109,7 @@ function buildCharts(sample) {
 
     //// Deliverable 2 ////
     // 1. Create the trace for the bubble chart.
-    var bubbleData = {
+    var bubbleData = [{
       x: otu_ids,
       y: sample_values,
       text: otu_labels,
@@ -119,7 +119,7 @@ function buildCharts(sample) {
         color: otu_ids,
         colorscale: "BrBG"
       }
-    };
+    }];
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
